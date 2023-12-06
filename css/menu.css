@@ -1,0 +1,67 @@
+header {
+}
+
+header div.local_nav {
+  width: 100%;
+  height: 700px;
+  background-image: url("../assets/coffee-circle.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+header > div.local_nav h1.title {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  background-color: #393939;
+  text-align: center;
+  color: #fff;
+}
+header div.local_nav nav {
+  background-color: #393939;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+header div.local_nav nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+header div.local_nav nav ul li {
+  border-left: 4px solid #5bacc3;
+  padding: 0 20px;
+}
+header div.local_nav nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header div.local_nav nav ul li:hover a {
+  color: #5bacc3;
+}
+main {
+  text-align: center;
+  color: #393939;
+}
+main section {
+  background-color: #fff0ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section:nth-child(2) {
+  background-color: #f7f7f7;
+}
+
+main section h2 {
+  margin: 20px 0;
+}
+main section h3 {
+  margin-top: 20px;
+}
+
+main section p.italic {
+  width: 30%;
+}

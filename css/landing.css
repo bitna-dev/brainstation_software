@@ -1,0 +1,83 @@
+/* HEADER */
+header {
+  margin-bottom: 20px;
+}
+
+/* HEADER NAV */
+header nav {
+  background-color: #fff0ed;
+}
+
+/* HEADER DIV */
+header > div {
+  background-color: #fff0ed;
+  margin-top: 20px;
+  height: 100%;
+  position: relative;
+}
+header > div button {
+  vertical-align: bottom;
+}
+
+/* SECTION */
+
+section h2 {
+  margin: 40px 0;
+}
+section .item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+section .item__card {
+  width: 330px;
+  height: 440px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  box-sizing: content-box;
+}
+section .item__card img {
+  height: 280px;
+}
+section .item__card h3 {
+  margin: 20px 0;
+}
+section .item__card p {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+section p.discount {
+  font-size: 45px;
+  color: #fff;
+  background-color: #393939;
+  text-align: center;
+  width: 90%;
+  margin: 0;
+}
+section p.discount > span {
+  font-weight: 700;
+}
+footer {
+  background-color: #fff0ed;
+  margin-top: 20px;
+}
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+  font-size: 33px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+footer span.bold {
+  font-weight: 700;
+}
+footer img {
+  width: 50px;
+}
